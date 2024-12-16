@@ -20,15 +20,15 @@ sctransform==0.4.1
 ```bash
 # For EmptyDrops
 nextflow run doubleidentification.nf
---type empty \
---file_input \
---file_output \ 
---file_label \
+--type empty 
+--file_input 
+--file_output 
+--file_label 
 --fdr 0.005 
 
 
 # For DoubletFinder
-nextflow run doubleidentification.nf \
---type double \
---file_input \
+nextflow run doubleidentification.nf 
+--type double 
+--file_input 
 --file_output 
