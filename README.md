@@ -5,31 +5,30 @@ In this study, we deployed nextflow to design a workflow that integrates EmptyDr
 
 ## Installation
 The versions of some packages used in the experiment are as follows:
-nextflow version 24.10.0.5928
-Seurat==5.1.0
-ModEvA==3.2.0
-DropletUtils==1.26.0
-fields==16.3
-parallel==4.4.0
-KernSmooth==2.23.24
-ROCR==1.0.11
-sctransform==0.4.1
+nextflow version 24.10.0.5928 \
+Seurat==5.1.0 \
+ModEvA==3.2.0 \
+DropletUtils==1.26.0 \
+fields==16.3 \
+parallel==4.4.0 \
+KernSmooth==2.23.24 \
+ROCR==1.0.11 \
+sctransform==0.4.1 \
 
 
 ## Usage
-For EmptyDrops
+### For EmptyDrops
 ```bash
 nextflow run doubleidentification.nf
---type empty
---file_input
---file_output 
---file_label 
---fdr 0.005
+--type empty \
+--file_input \
+--file_output \ 
+--file_label \
+--fdr 0.005 \
 
 
-For DoubletFinder
-```bash
-nextflow run doubleidentification.nf
---type double
---file_input 
---file_output 
+### For DoubletFinder
+nextflow run doubleidentification.nf \
+--type double \
+--file_input \
+--file_output \
