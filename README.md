@@ -31,4 +31,4 @@ nextflow run doubleidentification.nf
 nextflow run doubleidentification.nf \
 --type double \
 --file_input \
---file_output \
+--file_output 
