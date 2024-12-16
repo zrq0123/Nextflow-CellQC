@@ -13,7 +13,7 @@ fields==16.3 \
 parallel==4.4.0 \
 KernSmooth==2.23.24 \
 ROCR==1.0.11 \
-sctransform==0.4.1 \
+sctransform==0.4.1 
 
 
 ## Usage
@@ -24,7 +24,7 @@ nextflow run doubleidentification.nf
 --file_input \
 --file_output \ 
 --file_label \
---fdr 0.005 \
+--fdr 0.005 
 
 
 ### For DoubletFinder
