@@ -3,7 +3,7 @@
 ## Overview
 In this study, we deployed nextflow to design a workflow that integrates EmptyDrops and DoubletFinder for the detection of empty droplets and mixed cells.
 
-##Installation
+## Installation
 The versions of some packages used in the experiment are as follows:
 nextflow version 24.10.0.5928
 Seurat==5.1.0
@@ -25,6 +25,7 @@ nextflow run doubleidentification.nf
 --file_output 
 --file_label 
 --fdr 0.005
+
 
 For DoubletFinder
 ```bash
