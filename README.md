@@ -17,8 +17,8 @@ sctransform==0.4.1
 
 
 ## Usage
-### For EmptyDrops
 ```bash
+# For EmptyDrops
 nextflow run doubleidentification.nf
 --type empty \
 --file_input \
@@ -27,7 +27,7 @@ nextflow run doubleidentification.nf
 --fdr 0.005 
 
 
-### For DoubletFinder
+# For DoubletFinder
 nextflow run doubleidentification.nf \
 --type double \
 --file_input \
